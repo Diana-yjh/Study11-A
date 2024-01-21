@@ -26,12 +26,12 @@
 
 <details>
 <summary>1. 2024.01.13(주제: Type)</summary>
-  - 참석자: Diana, Prism, Danny, Gama<br>
-  - [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week2)
+  😁 참석자: Diana, Prism, Danny, Gama<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week2)
 </details>
 
 <details>
 <summary>1. 2024.01.20(주제: MVC)</summary>
-  - 참석자: Diana, Prism, Danny<br>
-  - [Wiki Go!]()
+  😁 참석자: Diana, Prism, Danny<br>
+  🔎 [Wiki Go!]()
 </details>
