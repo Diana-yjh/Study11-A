@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Main View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="MainViewController" customModule="Experiment_VLC_Singleton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y8i-Zg-gHT">
+                                <rect key="frame" x="107" y="846" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.63422542810000004" green="0.51760834460000005" blue="0.3684726357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="Qtj-lE-j91"/>
+                                    <constraint firstAttribute="height" constant="50" id="l9z-eN-IkN"/>
+                                </constraints>
+                                <state key="normal" title="신상품 구매 페이지로 이동">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="transitionButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9sM-ii-izW"/>
+                                    <segue destination="CBv-V7-3GI" kind="popoverPresentation" popoverAnchorView="y8i-Zg-gHT" id="vfP-uT-bIK">
+                                        <popoverArrowDirection key="popoverArrowDirection" up="YES" down="YES" left="YES" right="YES"/>
+                                    </segue>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ByG-Vd-NTB">
+                                <rect key="frame" x="198" y="438.5" width="18" height="22"/>
+                                <state key="normal" image="arrow.clockwise" catalog="system"/>
+                                <connections>
+                                    <action selector="refreshButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bIn-77-fn6"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="shX-j2-lvn">
+                                <rect key="frame" x="96.5" y="198" width="221" height="180.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="현재 야아 포인트" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h7z-On-Fzo">
+                                        <rect key="frame" x="0.0" y="0.0" width="221" height="41"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RkP-hy-tXH">
+                                        <rect key="frame" x="80" y="61" width="61" height="119.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="100"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemGray6Color"/>
+                        <constraints>
+                            <constraint firstItem="shX-j2-lvn" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0cz-R4-Ant"/>
+                            <constraint firstItem="shX-j2-lvn" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="Bt3-dh-UuR"/>
+                            <constraint firstAttribute="bottom" secondItem="y8i-Zg-gHT" secondAttribute="bottom" id="PCG-mO-yuF"/>
+                            <constraint firstItem="y8i-Zg-gHT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Yqw-A0-zN1"/>
+                            <constraint firstItem="ByG-Vd-NTB" firstAttribute="top" secondItem="shX-j2-lvn" secondAttribute="bottom" constant="60" id="mA4-Td-O9E"/>
+                            <constraint firstItem="ByG-Vd-NTB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pL2-vU-U7r"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="transitionButton" destination="y8i-Zg-gHT" id="h94-eF-Tu6"/>
+                        <outlet property="yagomAcademyPoint" destination="RkP-hy-tXH" id="ceS-c3-Fk8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+        <!--Buying View Controller-->
+        <scene sceneID="dab-2e-pgu">
+            <objects>
+                <viewController modalPresentationStyle="currentContext" id="CBv-V7-3GI" customClass="BuyingViewController" customModule="Experiment_VLC_Singleton" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kKM-PG-AYS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="886"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" springLoaded="YES" translatesAutoresizingMaskIntoConstraints="NO" id="N43-NC-O5F">
+                                <rect key="frame" x="362.5" y="30" width="21.5" height="275.5"/>
+                                <color key="tintColor" red="0.5149362277965206" green="0.43504200192906822" blue="0.3207730379481199" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <state key="normal" image="xmark.octagon" catalog="system"/>
+                                <connections>
+                                    <action selector="dismissButton:" destination="CBv-V7-3GI" eventType="touchUpInside" id="lSW-LD-lE3"/>
+                                </connections>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="uxW-54-a1P">
+                                <rect key="frame" x="30" y="335.5" width="354" height="470.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="신상 야곰 돕바 (50점)" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WyZ-oq-Pb8">
+                                        <rect key="frame" x="31" y="0.0" width="292" height="41"/>
+                                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="academyItem" translatesAutoresizingMaskIntoConstraints="NO" id="wM9-Kj-Hpt">
+                                        <rect key="frame" x="77" y="65" width="200" height="300"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="200" id="euQ-96-eiw"/>
+                                            <constraint firstAttribute="height" constant="300" id="lK5-21-0ID"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="국내 최초 곰 가죽으로 만든 돕바입니다.  얼어버린 캠퍼의 마음도 사르르 녹여버린다는 소문이 있는데요. 한 크루의 말에 따르면 이 돕바를 입는 순간 PR이 바로 Merge가 되는 마법같은 일이 벌어진다고 하네요." textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="34R-aF-0jb">
+                                        <rect key="frame" x="0.0" y="389" width="354" height="81.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WpT-xm-7kw">
+                                <rect key="frame" x="107" y="836" width="200" height="50"/>
+                                <color key="backgroundColor" red="0.63422542810000004" green="0.51760834460000005" blue="0.3684726357" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="TSy-eD-WmX"/>
+                                    <constraint firstAttribute="height" constant="50" id="hv3-MO-Bu6"/>
+                                </constraints>
+                                <state key="normal" title="구매하기">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="buyButtonTapped:" destination="CBv-V7-3GI" eventType="touchUpInside" id="ENb-yC-XTz"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="YYY-az-PZb"/>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="uxW-54-a1P" firstAttribute="leading" secondItem="YYY-az-PZb" secondAttribute="leading" constant="30" id="FmN-Ri-qaY"/>
+                            <constraint firstItem="uxW-54-a1P" firstAttribute="centerX" secondItem="kKM-PG-AYS" secondAttribute="centerX" id="GXz-BN-vlA"/>
+                            <constraint firstItem="WpT-xm-7kw" firstAttribute="top" secondItem="uxW-54-a1P" secondAttribute="bottom" constant="30" id="OKT-WS-cya"/>
+                            <constraint firstItem="N43-NC-O5F" firstAttribute="top" secondItem="YYY-az-PZb" secondAttribute="top" constant="30" id="QQI-nw-ZvF"/>
+                            <constraint firstItem="uxW-54-a1P" firstAttribute="top" secondItem="N43-NC-O5F" secondAttribute="bottom" constant="30" id="Vof-lw-Wnf"/>
+                            <constraint firstItem="WpT-xm-7kw" firstAttribute="bottom" secondItem="YYY-az-PZb" secondAttribute="bottom" id="WIo-PV-JfW"/>
+                            <constraint firstItem="YYY-az-PZb" firstAttribute="trailing" secondItem="N43-NC-O5F" secondAttribute="trailing" constant="30" id="fBh-3F-wJ3"/>
+                            <constraint firstAttribute="trailing" secondItem="uxW-54-a1P" secondAttribute="trailing" constant="30" id="nME-vs-hd8"/>
+                            <constraint firstItem="WpT-xm-7kw" firstAttribute="centerX" secondItem="kKM-PG-AYS" secondAttribute="centerX" id="rCF-jP-AVd"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Cnr-xN-HxD"/>
+                    <connections>
+                        <outlet property="buyButton" destination="WpT-xm-7kw" id="zFo-m1-VNB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Vz-0n-9qI" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="913.04347826086962" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="academyItem" width="656" height="862"/>
+        <image name="arrow.clockwise" catalog="system" width="113" height="128"/>
+        <image name="xmark.octagon" catalog="system" width="128" height="112"/>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGray6Color">
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
