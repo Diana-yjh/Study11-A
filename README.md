@@ -6,7 +6,7 @@
 ## 🍎 스터디원
 | Diana😎 | Prism🌈 | Danny🍀 | Gama👩‍🍳 | Gray🐵 |
 | --- | --- | --- | --- | --- |
-| [GitHub]() | [GitHub]() | [GitHub](https://github.com/dannykim1215) | [GitHub]() | [GitHub]() |
+| [GitHub](https://github.com/Diana-yjh) | [GitHub](https://github.com/PrismSpirit) | [GitHub](https://github.com/dannykim1215) | [GitHub]() | [GitHub](https://github.com/yawoong2) |
 
 - - -
 
@@ -33,7 +33,7 @@
 <details>
 <summary>3. 2024.01.20(주제: MVC)</summary>
   😁 참석자: Diana, Prism, Danny<br>
-  🔎 [Wiki Go!]()
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week3)
 </details>
 
 <details>
