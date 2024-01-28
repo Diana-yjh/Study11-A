@@ -39,5 +39,5 @@
 <details>
 <summary>4. 2024.01.27(주제: 싱글톤 패턴)</summary>
   😁 참석자: Diana, Prism, Danny, Gama, Gray<br>
-  🔎 [Wiki Go!]()
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week4)
 </details>
