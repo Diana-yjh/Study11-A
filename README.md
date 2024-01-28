@@ -4,9 +4,9 @@
 - - -
 
 ## 🍎 스터디원
-| Diana😎 | Prism🌈 | Danny🍀 | Gama👩‍🍳 |
-| --- | --- | --- | --- |
-| [GitHub]() | [GitHub]() | [GitHub](https://github.com/dannykim1215) | [GitHub]() |
+| Diana😎 | Prism🌈 | Danny🍀 | Gama👩‍🍳 | Gray🐵 |
+| --- | --- | --- | --- | --- |
+| [GitHub]() | [GitHub]() | [GitHub](https://github.com/dannykim1215) | [GitHub]() | [GitHub]() |
 
 - - -
 
@@ -33,5 +33,11 @@
 <details>
 <summary>3. 2024.01.20(주제: MVC)</summary>
   😁 참석자: Diana, Prism, Danny<br>
+  🔎 [Wiki Go!]()
+</details>
+
+<details>
+<summary>4. 2024.01.27(주제: 싱글톤 패턴)</summary>
+  😁 참석자: Diana, Prism, Danny, Gama, Gray<br>
   🔎 [Wiki Go!]()
 </details>
