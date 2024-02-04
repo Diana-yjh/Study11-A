@@ -13,7 +13,8 @@
 ## 🔥 토요스터디 규칙 
 
 ### 매주 토요일 9시에 진행해요!
-- 스터디 일정 변경 필요시 미리 말해주기
+- 스터디 일정 변경 필요시 미리 말해주기 🙏
+- 불참 시, 스터디 전날에 말해주기 🙏
 
 - - -
 
@@ -40,4 +41,10 @@
 <summary>4. 2024.01.27(주제: 싱글톤 패턴)</summary>
   😁 참석자: Diana, Prism, Danny, Gama, Gray<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week4)
+</details>
+
+<details>
+<summary>5. 2024.02.03(주제: UML)</summary>
+  😁 참석자: Diana, Prism, Danny, Gama(개인사정으로 불참), Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week5)
 </details>
