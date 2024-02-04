@@ -34,7 +34,7 @@ class YagomOptional {
 //            print("\(index)번 상품은 \(product) 입니다")
             
             //5. switch case
-            
+            productList.first
             
             //6. 고차함수 compactMap
 //            let newProductList: [String] = productList.compactMap{$0}
@@ -78,4 +78,5 @@ class YagomOptional {
         } while(budget > 0)
     }
 }
+
 
