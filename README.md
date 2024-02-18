@@ -48,3 +48,9 @@
   😁 참석자: Diana, Prism, Danny, Gama(개인사정으로 불참), Gray<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week5)
 </details>
+
+<details>
+<summary>6. 2024.02.17(주제: SOLID)</summary>
+  😁 참석자: Diana, Prism, Danny(개인사정으로 불참), Gama(개인사정으로 불참), Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week6)
+</details>
