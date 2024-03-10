@@ -54,3 +54,9 @@
   😁 참석자: Diana, Prism, Danny(개인사정으로 불참), Gama(개인사정으로 불참), Gray<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week6)
 </details>
+
+<details>
+<summary>7. 2024.02.24(주제: 고차함수)</summary>
+  😁 참석자: Diana, Prism, Danny, Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week7)
+</details>
