@@ -62,6 +62,11 @@
 </details>
 
 <details>
+<summary>8. 야곰아카데미 11기 방학 주 </summary>
+  😁 즐거운 방학 !!
+</details>
+
+<details>
 <summary>9. 2024.03.09(주제: TableView)</summary>
   😁 참석자: Diana, Prism, Danny<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week9)
