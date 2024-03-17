@@ -1,0 +1,32 @@
+[
+    {
+        "name":"Gray",
+        "group":11,
+        "phone_model":"iphone 12 mini"
+    },
+    {
+        "name":"Hamzzi",
+        "group":11,
+        "phone_model":"iphone 14 pro"
+    },
+    {
+        "name":"Danny",
+        "group":11,
+        "phone_model":"iphone 12 pro"
+    },
+    {
+        "name":"Gama",
+        "group":11,
+        "phone_model":"iphone 15"
+    },
+    {
+        "name":"Diana",
+        "group":11,
+        "phone_model":"iphone 14 pro max"
+    },
+    {
+        "name":"Prism",
+        "group":11,
+        "phone_model":"iphone 17 pro"
+    }
+]
