@@ -71,3 +71,9 @@
   😁 참석자: Diana, Prism, Danny<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week9)
 </details>
+
+<details>
+<summary>10. 2024.03.16(주제: JSON)</summary>
+  😁 참석자: Diana, Prism, Danny, Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week10)
+</details>
