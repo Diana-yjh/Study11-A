@@ -1,0 +1,27 @@
+[
+    {
+        "nickname": "Diana",
+        "generation": 11,
+        "device": "iPhone 14",
+    },
+    {
+        "nickname": "Danny",
+        "generation": 11,
+        "device": "iPhone 12 Pro",
+    },
+    {
+        "nickname": "Gray",
+        "generation": 11,
+        "device": "iPhone 12 mini",
+    },
+    {
+        "nickname": "Prism",
+        "generation": 11,
+        "device": "iPhone Xs",
+    },
+    {
+        "nickname": "hamo",
+        "generation": 11,
+        "device": "iPhone 13",
+    },
+]
