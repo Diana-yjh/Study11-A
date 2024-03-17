@@ -1,0 +1,32 @@
+[
+    {
+        "nick_name": "Diana",
+        "generation": 11,
+        "cell_phone": "iPhone13"
+    },
+    {
+        "nick_name": "Danny",
+        "generation": 11,
+        "cell_phone": "iPhone12_pro"
+    },
+    {
+        "nick_name": "Prism",
+        "generation": 11,
+        "cell_phone": "iPhoneXs"
+    },
+    {
+        "nick_name": "Gray",
+        "generation": 11,
+        "cell_phone": "iPhone12_mini"
+    },
+    {
+        "nick_name": "Gama",
+        "generation": 11,
+        "cell_phone": "iPhone"
+    },
+    {
+        "nick_name": "Hamzzi",
+        "generation": 11,
+        "cell_phone": "iPhone13_pro"
+    }
+]
