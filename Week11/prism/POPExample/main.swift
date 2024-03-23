@@ -7,5 +7,9 @@
 
 import Foundation
 
-print("Hello, World!")
+let myMacBook = MacBook(maximumChargeWattPerHour: 60, currentCapacity: 0)
 
+myMacBook.chargeBattery(charger: charger5Wh)
+myMacBook.chargeBattery(charger: charger18Wh)
+myMacBook.chargeBattery(charger: charger30Wh)
+myMacBook.chargeBattery(charger: charger96Wh)
