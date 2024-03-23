@@ -11,8 +11,10 @@ struct MacBook {
     let maximumCapacity: WattPerHour = 100
     
     func chargeBattery(charger: Chargable) {
+        let chargingWatt = charger.convert(chargableWattPerHour: maximumChargeWattPerHour)
+        
         if currentCapacity < maximumCapacity {
-            let requiredTime = Double(maximumCapacity - currentCapacity) / Double(maximumChargeWattPerHour)
+            let requiredTime = Double(maximumCapacity - currentCapacity) / Double(chargingWatt)
             
             print("충전이 완료되었습니다. 소요된 시간: \(requiredTime)시간")
         } else {
