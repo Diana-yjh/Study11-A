@@ -5,7 +5,7 @@
 //  Created by Jaehun Lee on 3/23/24.
 //
 
-struct Charger: Chargable {
+struct Charger: Chargable, Portable {
     var maximumWattPerHour: WattPerHour
     
     func convert(chargableWattPerHour: WattPerHour) -> WattPerHour {

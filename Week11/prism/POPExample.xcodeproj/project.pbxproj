@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C438E38A2BB050360001A10E /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = C438E3892BB050360001A10E /* Bag.swift */; };
 		C47CF2D02BAE574100EED12F /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CF2CF2BAE574100EED12F /* main.swift */; };
 		C47CF2D72BAE588200EED12F /* Chargable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CF2D62BAE588200EED12F /* Chargable.swift */; };
 		C47CF2D92BAE5E3200EED12F /* MacBook.swift in Sources */ = {isa = PBXBuildFile; fileRef = C47CF2D82BAE5E3200EED12F /* MacBook.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C438E3892BB050360001A10E /* Bag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bag.swift; sourceTree = "<group>"; };
 		C47CF2CC2BAE574100EED12F /* POPExample */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = POPExample; sourceTree = BUILT_PRODUCTS_DIR; };
 		C47CF2CF2BAE574100EED12F /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C47CF2D62BAE588200EED12F /* Chargable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chargable.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			isa = PBXGroup;
 			children = (
 				C47CF2CF2BAE574100EED12F /* main.swift */,
+				C438E3892BB050360001A10E /* Bag.swift */,
 				C47CF2D62BAE588200EED12F /* Chargable.swift */,
 				C47CF2D82BAE5E3200EED12F /* MacBook.swift */,
 				C47CF2DA2BAE61F900EED12F /* Charger.swift */,
@@ -129,6 +132,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C438E38A2BB050360001A10E /* Bag.swift in Sources */,
 				C47CF2D02BAE574100EED12F /* main.swift in Sources */,
 				C47CF2D92BAE5E3200EED12F /* MacBook.swift in Sources */,
 				C47CF2DB2BAE61F900EED12F /* Charger.swift in Sources */,
