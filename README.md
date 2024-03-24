@@ -77,3 +77,10 @@
   😁 참석자: Diana, Prism, Danny, Gray<br>
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week10)
 </details>
+
+<details>
+<summary>11. 2024.03.23(주제: Protocol Oriented Programming)</summary>
+  😁 참석자: Prism, Danny, Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week11)
+</details>
+
