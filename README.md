@@ -84,3 +84,14 @@
   🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week11)
 </details>
 
+<details>
+<summary>12. 2024.03.30(주제: let us: Go! SPRING CONFERENCE 2024)</summary>
+  😁 참석자: Diana, Prism, Danny, Gray<br>
+</details>
+
+<details>
+<summary>13. 2024.04.06(주제: URLSession)</summary>
+  😁 참석자: Diana, Prism, Danny, Gray<br>
+  🔎 [Wiki Go!](https://github.com/Diana-yjh/Study11-A/wiki/Week13)
+</details>
+
